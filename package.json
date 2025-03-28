@@ -1,15 +1,16 @@
 {
-    "name": "whatsapp-sheet-bot",
+    "name": "whatsapp-gsheet-bot",
     "version": "1.0.0",
-    "description": "Bot de WhatsApp que responde datos desde Google Sheets",
-    "main": "app.js",
+    "main": "index.js",
+    "type": "module",
     "scripts": {
-      "start": "node app.js"
+      "start": "node index.js"
     },
     "dependencies": {
-      "google-spreadsheet": "^3.3.0",
-      "qrcode-terminal": "^0.12.0",
-      "whatsapp-web.js": "^1.18.4"
+      "axios": "^1.7.3",
+      "body-parser": "^1.20.2",
+      "express": "^4.18.2",
+      "googleapis": "^133.0.0"
     }
   }
   
